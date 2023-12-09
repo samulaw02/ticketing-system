@@ -42,6 +42,6 @@ The Ticketing System is an application designed to manage support requests or ti
 - Access the application via the defined endpoints or UI.
 - Register users, create tickets, manage ticket statuses, and perform other actions based on your implemented functionalities.
 
-# If you have any concerns, please feel free to reach out to me.
-# Expecting your swift response. 
-# Thanks.
+#### If you have any concerns, please feel free to reach out to me.
+#### Expecting your swift response. 
+#### Thanks.
