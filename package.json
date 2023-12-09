@@ -1,0 +1,50 @@
+{
+    "name": "ticketing-system",
+    "version": "1.0.0",
+    "description": "This is a ticketing application,that allows customer to submit ticket and support technician to respond to tickets, etc",
+    "main": "server.ts",
+    "scripts": {
+        "test": "cross-env NODE_ENV=test jest --testTimeout=5000 --detectOpenHandles",
+        "build": "tsc",
+        "dev": "node ./dist/server.js",
+        "start": "tsc && npm run dev",
+        "prettier": "prettier --write ."
+    },
+    "author": "Samuel Adepoju",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.1.1",
+        "cors": "^2.8.5",
+        "cross-env": "^7.0.3",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.0.2",
+        "superset": "^2.0.1",
+        "zod": "^3.22.4"
+    },
+    "devDependencies": {
+        "@types/bcrypt": "^5.0.2",
+        "@types/cors": "^2.8.17",
+        "@types/dotenv": "^8.2.0",
+        "@types/express": "^4.17.21",
+        "@types/jest": "^29.5.10",
+        "@types/jsonwebtoken": "^9.0.5",
+        "@types/mongoose": "^5.11.97",
+        "@types/node": "^20.10.1",
+        "@types/supertest": "^2.0.16",
+        "jest": "^29.7.0",
+        "prettier": "^3.1.0",
+        "supertest": "^6.3.3",
+        "ts-jest": "^29.1.1",
+        "ts-loader": "^9.5.1",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.3.2"
+    },
+    "prettier": {
+        "singleQuote": false,
+        "trailingComma": "es5",
+        "printWidth": 120,
+        "tabWidth": 4
+    }
+}
